@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="teacher-dashboard.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Teacher Dashboard</h2>
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Manage Courses</a></li>
+            <li><a href="#">Assignments</a></li>
+            <li><a href="#">Gradebook</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="dashboard-content">
+        <!-- Existing Sections -->
+        <div class="card">
+            <h3>Assignments to Review</h3>
+            <p>Math Homework (10 submissions)</p>
+            <p>Science Project (7 submissions)</p>
+        </div>
+
+        <div class="card">
+            <h3>Courses You're Teaching</h3>
+            <p>Math 101</p>
+            <p>Physics 202</p>
+        </div>
+
+        <div class="card">
+            <h3>Messages</h3>
+            <p>Message from Admin: "Faculty Meeting at 2 PM"</p>
+            <p>Message from Student: "Need help with Science Project"</p>
+        </div>
+
+        <!-- New Section: Pending Homework Students List -->
+        <div class="card pending-homework">
+            <h3>Pending Homework Students</h3>
+            <ul class="student-list">
+                <li>Faheem</li>
+                <li>Darvesh Ahmad</li>
+                <li>Farzath</li>
+            </ul>
+        </div>
+
+        <!-- New Section: 12th Std Mark List -->
+        <div class="card marks-list">
+            <h3>12th Std Mark List</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Math</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>88</td>
+                    </tr>
+                    <tr>
+                        <td>Biology</td>
+                        <td>78</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

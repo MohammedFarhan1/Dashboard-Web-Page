@@ -1,0 +1,114 @@
+/* Global Styles (Retained) */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2f3640;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #fbc531;
+}
+
+/* Dashboard Content Styles */
+.dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+.card h3 {
+    color: #273c75;
+    margin-bottom: 15px;
+}
+
+.card p, .card ul {
+    color: #2f3640;
+    margin: 0;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #dcdde1;
+}
+
+.card ul li:last-child {
+    border-bottom: none;
+}
+
+/* Table Styling for Marks List */
+.marks-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.marks-list table, .marks-list th, .marks-list td {
+    border: 1px solid #dcdde1;
+}
+
+.marks-list th, .marks-list td {
+    padding: 12px;
+    text-align: left;
+}
+
+.marks-list th {
+    background-color: #f5f6fa;
+    color: #273c75;
+}
+
+.marks-list td {
+    background-color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

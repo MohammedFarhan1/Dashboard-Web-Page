@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="student-dashboard.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Student Dashboard</h2>
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Assignments</a></li>
+            <li><a href="#">Grades</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    
+    <div class="dashboard-content">
+        <!-- Existing Sections -->
+        <div class="card">
+            <h3>Upcoming Assignments</h3>
+            <p>Math Homework: Due in 3 days</p>
+            <p>Science Project: Due in 5 days</p>
+        </div>
+
+        <div class="card">
+            <h3>Recent Grades</h3>
+            <p>Math Test: 85%</p>
+            <p>Science Quiz: 90%</p>
+        </div>
+
+        <div class="card">
+            <h3>Enrolled Courses</h3>
+            <p>Math 101</p>
+            <p>Science 201</p>
+            <p>History 301</p>
+        </div>
+
+        <!-- New Section: Upcoming Exams -->
+        <div class="card upcoming-exams">
+            <h3>Upcoming Exams</h3>
+            <ul>
+                <li>Math: September 25, 2024</li>
+                <li>Physics: September 28, 2024</li>
+                <li>Chemistry: October 2, 2024</li>
+            </ul>
+        </div>
+
+        <!-- New Section: Recent Notifications -->
+        <div class="card notifications">
+            <h3>Recent Notifications</h3>
+            <ul>
+                <li>Class canceled on September 22</li>
+                <li>New lab session added for Chemistry</li>
+                <li>Field trip to Science Museum on October 5</li>
+            </ul>
+        </div>
+
+        <!-- New Section: Class Schedule -->
+        <div class="card class-schedule">
+            <h3>Class Schedule</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Subject</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Math</td>
+                        <td>9:00 AM - 10:30 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Physics</td>
+                        <td>10:45 AM - 12:15 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Chemistry</td>
+                        <td>1:00 PM - 2:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>History</td>
+                        <td>2:45 PM - 4:15 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
